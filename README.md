@@ -72,6 +72,6 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ---
 
-## 📜 License
+## 📜 License  
 
-This project is licensed under the [ISC License](LICENSE).
+This project is  a licensed under the [ISC License](LICENSE).
