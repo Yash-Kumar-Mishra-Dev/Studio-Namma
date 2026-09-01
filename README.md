@@ -1,51 +1,50 @@
-# Studio Namma 🎨✨
+# Studio Namma
 
-**Studio Namma** is an interactive, high-craft creative studio landing page and portfolio website built with modern web technologies. It features smooth custom cursor interactions, video hover effects, dynamic font styling, and an Express static server setup.
-
----
-
-## 🚀 Features
-
-- 🎥 **Interactive Playground Grid**: Hover over portfolio blocks (MATERA, CHANCE, SILVR, INTRAMUROS) to reveal preview videos with custom animated labels.
-- 🎯 **Custom Video Cursor**: Dynamic mouse-following cursor box and custom pointer states that dynamically change context on hover.
-- 🍔 **Slide-out Navigation Menu**: Clean overlay menu toggled via smooth CSS transitions.
-- 🌙 **Modern Dark Aesthetic**: Styled with Google Fonts (`Anton`), smooth grid layouts, and immersive video integration.
-- ⚡ **Lightweight Express Server**: Express.js server setup for quick local hosting and static asset serving.
+Studio Namma is an interactive creative studio landing page and portfolio application built using modern web development practices. The application incorporates dynamic custom cursor tracking, video hover interactions, responsive layout design, and a dedicated Express.js static file server.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla ES6+)
-- **Backend / Web Server**: Node.js, Express.js
+- **Interactive Playground Grid**: Hover over portfolio elements (MATERA, CHANCE, SILVR, INTRAMUROS) to play context-aware video previews and dynamic text overlays.
+- **Custom Cursor System**: Dual-layer mouse movement tracking with video cursor container and adaptive pointer indicators.
+- **Navigation Overlay**: Fullscreen slide-out menu system managed via CSS transitions and JavaScript state controls.
+- **Dark Aesthetic & Typography**: Dark UI aesthetic integrated with Google Fonts (Anton) and optimized video assets.
+- **Express Web Server**: Pre-configured Node.js Express server to serve static assets and handle local development hosting on port 5500.
+
+---
+
+## Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Backend**: Node.js, Express.js
+- **Assets**: WebP graphics, HTML5 MP4 Video stream rendering
 - **Typography**: Google Fonts (Anton)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Studio-Namma/
-├── index.html            # Main HTML document with layout & sections
-├── style.css             # Custom CSS styling, layouts, and animations
-├── script.js            # Interactive JS logic (cursor effects, menu toggle, video hover)
-├── server.js            # Express server hosting static assets on port 5500
-├── package.json          # Node dependencies & npm scripts
-├── .gitignore            # Git ignore configuration
-└── assets/               # Video and WebP image media assets
-    ├── block1.webp / block2.mp4 ...
-    ├── cursorvid.mp4
-    └── matera-highlight-2.mp4
+├── index.html            # Primary HTML structure and document outline
+├── style.css             # Main stylesheet including layout models and keyframe rules
+├── script.js             # Client-side JavaScript handling UI state and DOM events
+├── server.js             # Node.js server configuration serving static files
+├── package.json          # Dependency manifest and project execution scripts
+├── .gitignore            # Version control exclusions
+└── assets/               # Media assets directory (MP4 videos and WebP images)
 ```
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-### Installation & Running Locally
+Ensure [Node.js](https://nodejs.org/) (v14.0 or later) is installed on your system.
+
+### Installation and Execution
 
 1. **Clone the repository**:
    ```bash
@@ -58,20 +57,16 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    npm install
    ```
 
-3. **Start the local server**:
+3. **Start the server**:
    ```bash
    npm start
    ```
-   Or run directly with Node:
-   ```bash
-   node server.js
-   ```
 
-4. **View in browser**:
-   Open [http://localhost:5500](http://localhost:5500) in your web browser.
+4. **Access the application**:
+   Open a web browser and navigate to `http://localhost:5500`.
 
 ---
 
-## 📜 License  
+## License
 
-This project is  a licensed under the [ISC License](LICENSE).
+This project is distributed under the ISC License.
